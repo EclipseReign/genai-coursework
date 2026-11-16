@@ -1,0 +1,42 @@
+[
+  {
+    "id": "ROOM-01",
+    "title": "Meeting room booking and cancellation",
+    "topic": "rooms",
+    "audience": "members",
+    "effective": "2026-11-01",
+    "text": "Members reserve meeting rooms in the portal. Cancel at least 4 hours before the start to restore the booking credit. If nobody checks in within 15 minutes after the start, the system releases the room and the booking credit is used."
+  },
+  {
+    "id": "ROOM-02",
+    "title": "Meeting room capacity and equipment",
+    "topic": "rooms",
+    "audience": "members",
+    "effective": "2026-11-01",
+    "text": "Lock Room seats 4 and has a whiteboard and USB-C display. Basin Room seats 8 and has a video conferencing camera and HDMI display. Each room can be booked in 30-minute increments. Catering is allowed in Basin Room only."
+  },
+  {
+    "id": "ROOM-03",
+    "title": "Quiet floor and phone booths",
+    "topic": "rooms",
+    "audience": "all visitors",
+    "effective": "2026-11-01",
+    "text": "The second floor is designated for quiet work. Calls must be taken in a phone booth or meeting room. Phone booths are first come, first served and have a 30-minute limit when others are waiting. Leave booths empty between calls."
+  },
+  {
+    "id": "ROOM-04",
+    "title": "Podcast studio and orientation",
+    "topic": "rooms",
+    "audience": "Studio members",
+    "effective": "2026-11-01",
+    "text": "Studio members may reserve the podcast studio after completing the 20-minute equipment orientation. Book through the portal at least 24 hours ahead. The studio rotates four microphone kits; guests may use the studio only when accompanied by the booking member."
+  },
+  {
+    "id": "ROOM-05",
+    "title": "After-hours meeting room access",
+    "topic": "rooms",
+    "audience": "members",
+    "effective": "2026-11-01",
+    "text": "A booking does not extend building access beyond 10:00 p.m. Guests may use a booked room only while their host is present and subject to the applicable guest policy. Weekend guest registration is governed by ACCESS-02."
+  }
+]

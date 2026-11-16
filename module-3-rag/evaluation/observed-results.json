@@ -1,0 +1,467 @@
+{
+  "summary": {
+    "scenario_passes": 9,
+    "scenarios": 9,
+    "all_gold_sources_in_top_4": 6,
+    "answerable_scenarios": 6
+  },
+  "results": [
+    {
+      "case": "weekend_guest",
+      "question": "Can I bring guests on Sunday as a Studio member, and when must I register them?",
+      "expected_sources": [
+        "ACCESS-02"
+      ],
+      "all_expected_sources_retrieved": true,
+      "passed": true,
+      "status": "answered",
+      "answer": "Yes, as a Studio member you can bring guests on Sunday. You must register each guest through the member portal by 5:00 p.m. on the previous business day. This is governed by ACCESS-02.",
+      "citations": [
+        "ACCESS-02"
+      ],
+      "sources": [
+        {
+          "id": "ACCESS-02",
+          "title": "Weekend guest registration",
+          "topic": "access",
+          "audience": "members",
+          "effective": "2026-11-01",
+          "text": "On Saturdays and Sundays, only Studio members may bring guests. The host must register each guest through the member portal by 5:00 p.m. on the previous business day. The host must meet the visitor at the east entrance and remain onsite. A host can register up to two weekend guests per day."
+        }
+      ],
+      "retrieved": [
+        {
+          "id": "ACCESS-02",
+          "title": "Weekend guest registration",
+          "similarity": 0.8816,
+          "in_context": true
+        },
+        {
+          "id": "ACCESS-05",
+          "title": "Weekday guest registration",
+          "similarity": 0.8024,
+          "in_context": true
+        },
+        {
+          "id": "ROOM-05",
+          "title": "After-hours meeting room access",
+          "similarity": 0.7547,
+          "in_context": true
+        },
+        {
+          "id": "ACCESS-01",
+          "title": "Front desk and member access",
+          "similarity": 0.7241,
+          "in_context": true
+        }
+      ],
+      "metrics": {
+        "search_ms": 271,
+        "total_ms": 5029
+      }
+    },
+    {
+      "case": "room_credit",
+      "question": "How far in advance must I cancel a meeting room to get my credit back?",
+      "expected_sources": [
+        "ROOM-01"
+      ],
+      "all_expected_sources_retrieved": true,
+      "passed": true,
+      "status": "answered",
+      "answer": "You must cancel at least 4 hours before the start of the meeting to restore the booking credit.",
+      "citations": [
+        "ROOM-01"
+      ],
+      "sources": [
+        {
+          "id": "ROOM-01",
+          "title": "Meeting room booking and cancellation",
+          "topic": "rooms",
+          "audience": "members",
+          "effective": "2026-11-01",
+          "text": "Members reserve meeting rooms in the portal. Cancel at least 4 hours before the start to restore the booking credit. If nobody checks in within 15 minutes after the start, the system releases the room and the booking credit is used."
+        }
+      ],
+      "retrieved": [
+        {
+          "id": "ROOM-01",
+          "title": "Meeting room booking and cancellation",
+          "similarity": 0.839,
+          "in_context": true
+        },
+        {
+          "id": "ROOM-05",
+          "title": "After-hours meeting room access",
+          "similarity": 0.6338,
+          "in_context": true
+        },
+        {
+          "id": "ROOM-03",
+          "title": "Quiet floor and phone booths",
+          "similarity": 0.6319,
+          "in_context": true
+        },
+        {
+          "id": "SERVICE-05",
+          "title": "Day passes and equipment loans",
+          "similarity": 0.6246,
+          "in_context": true
+        }
+      ],
+      "metrics": {
+        "search_ms": 205,
+        "total_ms": 3014
+      }
+    },
+    {
+      "case": "access_paraphrase",
+      "question": "Where can a wheelchair user get in without stairs?",
+      "expected_sources": [
+        "ACCESS-04"
+      ],
+      "all_expected_sources_retrieved": true,
+      "passed": true,
+      "status": "answered",
+      "answer": "A wheelchair user can get in without stairs through the west entrance on Lock Lane, which has a step-free doorway and automatic door. The elevator is just inside and reaches both coworking floors.",
+      "citations": [
+        "ACCESS-04"
+      ],
+      "sources": [
+        {
+          "id": "ACCESS-04",
+          "title": "Step-free entrance and restrooms",
+          "topic": "access",
+          "audience": "all visitors",
+          "effective": "2026-11-01",
+          "text": "The west entrance on Lock Lane has a step-free doorway and automatic door. The elevator is just inside and reaches both coworking floors. Accessible restrooms are on the ground floor next to the café and on the second floor opposite the elevator."
+        }
+      ],
+      "retrieved": [
+        {
+          "id": "ACCESS-04",
+          "title": "Step-free entrance and restrooms",
+          "similarity": 0.6683,
+          "in_context": true
+        },
+        {
+          "id": "SERVICE-04",
+          "title": "Bicycle storage and charging",
+          "similarity": 0.5261,
+          "in_context": false
+        },
+        {
+          "id": "ROOM-03",
+          "title": "Quiet floor and phone booths",
+          "similarity": 0.493,
+          "in_context": false
+        },
+        {
+          "id": "ROOM-05",
+          "title": "After-hours meeting room access",
+          "similarity": 0.4725,
+          "in_context": false
+        }
+      ],
+      "metrics": {
+        "search_ms": 143,
+        "total_ms": 3349
+      }
+    },
+    {
+      "case": "guest_wifi",
+      "question": "What wireless network should a visitor join, and is there a password?",
+      "expected_sources": [
+        "SERVICE-01"
+      ],
+      "all_expected_sources_retrieved": true,
+      "passed": true,
+      "status": "answered",
+      "answer": "A visitor should join the Canal-Guest wireless network, and there is no password required.",
+      "citations": [
+        "SERVICE-01"
+      ],
+      "sources": [
+        {
+          "id": "SERVICE-01",
+          "title": "Guest Wi-Fi and member network",
+          "topic": "services",
+          "audience": "all visitors",
+          "effective": "2026-11-01",
+          "text": "The guest network is Canal-Guest. No shared password is required: open a browser and accept the captive portal terms. Members use Canal-Member and can retrieve their personal credentials in the portal. Reception can help with sign-in during staffed hours."
+        }
+      ],
+      "retrieved": [
+        {
+          "id": "SERVICE-01",
+          "title": "Guest Wi-Fi and member network",
+          "similarity": 0.7566,
+          "in_context": true
+        },
+        {
+          "id": "SERVICE-05",
+          "title": "Day passes and equipment loans",
+          "similarity": 0.56,
+          "in_context": false
+        },
+        {
+          "id": "ACCESS-05",
+          "title": "Weekday guest registration",
+          "similarity": 0.5502,
+          "in_context": false
+        },
+        {
+          "id": "ACCESS-02",
+          "title": "Weekend guest registration",
+          "similarity": 0.5442,
+          "in_context": false
+        }
+      ],
+      "metrics": {
+        "search_ms": 231,
+        "total_ms": 2304
+      }
+    },
+    {
+      "case": "printer",
+      "question": "What is the monthly black-and-white print allowance for a Standard member?",
+      "expected_sources": [
+        "SERVICE-02"
+      ],
+      "all_expected_sources_retrieved": true,
+      "passed": true,
+      "status": "answered",
+      "answer": "The monthly black-and-white print allowance for a Standard member is 30 pages.",
+      "citations": [
+        "SERVICE-02"
+      ],
+      "sources": [
+        {
+          "id": "SERVICE-02",
+          "title": "Printing quota and poster printing",
+          "topic": "services",
+          "audience": "members",
+          "effective": "2026-11-01",
+          "text": "Standard members get 30 black-and-white pages per calendar month; Studio members get 60. Each additional black-and-white page costs $0.08. Reception can print A3 posters at $2 each during staffed hours. Unused monthly printing credits expire at month end."
+        }
+      ],
+      "retrieved": [
+        {
+          "id": "SERVICE-02",
+          "title": "Printing quota and poster printing",
+          "similarity": 0.7397,
+          "in_context": true
+        },
+        {
+          "id": "SERVICE-03",
+          "title": "Parcel delivery and collection",
+          "similarity": 0.5336,
+          "in_context": false
+        },
+        {
+          "id": "ACCESS-03",
+          "title": "Lost badges and replacement",
+          "similarity": 0.5306,
+          "in_context": false
+        },
+        {
+          "id": "ACCESS-01",
+          "title": "Front desk and member access",
+          "similarity": 0.5281,
+          "in_context": false
+        }
+      ],
+      "metrics": {
+        "search_ms": 191,
+        "total_ms": 6198
+      }
+    },
+    {
+      "case": "two_sources",
+      "question": "What is the price of a day pass and what hours can a day pass visitor enter on weekdays?",
+      "expected_sources": [
+        "SERVICE-05",
+        "ACCESS-01"
+      ],
+      "all_expected_sources_retrieved": true,
+      "passed": true,
+      "status": "answered",
+      "answer": "The price of a day pass is $18. A day pass visitor can enter on weekdays during staffed hours, which are from 8:30 a.m. to 6:00 p.m.",
+      "citations": [
+        "SERVICE-05",
+        "ACCESS-01"
+      ],
+      "sources": [
+        {
+          "id": "SERVICE-05",
+          "title": "Day passes and equipment loans",
+          "topic": "services",
+          "audience": "all visitors",
+          "effective": "2026-11-01",
+          "text": "A day pass costs $18 and includes a hot desk and guest Wi-Fi for that day. Borrow a USB-C adapter at reception for up to three hours by leaving an access badge or visitor badge. Day passes do not include meeting room booking credits."
+        },
+        {
+          "id": "ACCESS-01",
+          "title": "Front desk and member access",
+          "topic": "access",
+          "audience": "members and visitors",
+          "effective": "2026-11-01",
+          "text": "The reception desk is staffed from 8:30 a.m. to 6:00 p.m. Monday through Friday. Standard and Studio members can badge in from 7:00 a.m. to 10:00 p.m. daily. Day pass visitors may enter during staffed hours only."
+        }
+      ],
+      "retrieved": [
+        {
+          "id": "SERVICE-05",
+          "title": "Day passes and equipment loans",
+          "similarity": 0.758,
+          "in_context": true
+        },
+        {
+          "id": "ACCESS-05",
+          "title": "Weekday guest registration",
+          "similarity": 0.6945,
+          "in_context": true
+        },
+        {
+          "id": "ACCESS-01",
+          "title": "Front desk and member access",
+          "similarity": 0.6615,
+          "in_context": true
+        },
+        {
+          "id": "ACCESS-02",
+          "title": "Weekend guest registration",
+          "similarity": 0.6369,
+          "in_context": true
+        }
+      ],
+      "metrics": {
+        "search_ms": 138,
+        "total_ms": 4323
+      }
+    },
+    {
+      "case": "out_of_scope",
+      "question": "What health insurance benefits do members receive?",
+      "expected_sources": [],
+      "all_expected_sources_retrieved": null,
+      "passed": true,
+      "status": "unanswered",
+      "answer": "I couldn't find enough information in the Canal Works handbook to answer that.",
+      "citations": [],
+      "sources": [],
+      "retrieved": [
+        {
+          "id": "ACCESS-03",
+          "title": "Lost badges and replacement",
+          "similarity": 0.5364,
+          "in_context": false
+        },
+        {
+          "id": "SERVICE-05",
+          "title": "Day passes and equipment loans",
+          "similarity": 0.4921,
+          "in_context": false
+        },
+        {
+          "id": "SERVICE-02",
+          "title": "Printing quota and poster printing",
+          "similarity": 0.4853,
+          "in_context": false
+        },
+        {
+          "id": "ACCESS-01",
+          "title": "Front desk and member access",
+          "similarity": 0.4827,
+          "in_context": false
+        }
+      ],
+      "metrics": {
+        "search_ms": 147,
+        "total_ms": 147
+      }
+    },
+    {
+      "case": "missing_policy",
+      "question": "How much does it cost to rent a dedicated parking space?",
+      "expected_sources": [],
+      "all_expected_sources_retrieved": null,
+      "passed": true,
+      "status": "unanswered",
+      "answer": "I couldn't find enough information in the Canal Works handbook to answer that.",
+      "citations": [],
+      "sources": [],
+      "retrieved": [
+        {
+          "id": "SERVICE-05",
+          "title": "Day passes and equipment loans",
+          "similarity": 0.589,
+          "in_context": false
+        },
+        {
+          "id": "ACCESS-03",
+          "title": "Lost badges and replacement",
+          "similarity": 0.5403,
+          "in_context": false
+        },
+        {
+          "id": "ROOM-02",
+          "title": "Meeting room capacity and equipment",
+          "similarity": 0.5345,
+          "in_context": false
+        },
+        {
+          "id": "SERVICE-02",
+          "title": "Printing quota and poster printing",
+          "similarity": 0.5292,
+          "in_context": false
+        }
+      ],
+      "metrics": {
+        "search_ms": 118,
+        "total_ms": 118
+      }
+    },
+    {
+      "case": "specific_unknown",
+      "question": "What brand and model is the HDMI display in Basin Room?",
+      "expected_sources": [],
+      "all_expected_sources_retrieved": null,
+      "passed": true,
+      "status": "unanswered",
+      "answer": "I couldn't find enough information in the Canal Works handbook to answer that.",
+      "citations": [],
+      "sources": [],
+      "retrieved": [
+        {
+          "id": "ROOM-02",
+          "title": "Meeting room capacity and equipment",
+          "similarity": 0.6834,
+          "in_context": true
+        },
+        {
+          "id": "ACCESS-01",
+          "title": "Front desk and member access",
+          "similarity": 0.4507,
+          "in_context": false
+        },
+        {
+          "id": "SERVICE-02",
+          "title": "Printing quota and poster printing",
+          "similarity": 0.4479,
+          "in_context": false
+        },
+        {
+          "id": "ROOM-01",
+          "title": "Meeting room booking and cancellation",
+          "similarity": 0.4402,
+          "in_context": false
+        }
+      ],
+      "metrics": {
+        "search_ms": 112,
+        "total_ms": 1170
+      }
+    }
+  ]
+}

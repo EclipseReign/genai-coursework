@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <title>Canal Works | Handbook search</title>
+  <link rel="stylesheet" href="/assets/style.css">
+  <script src="/assets/app.js" defer></script>
+</head>
+<body>
+  <header class="masthead"><span class="brand">Canal Works</span><span class="meta">Member handbook</span></header>
+  <main>
+    <div class="intro">
+      <h1>Ask the handbook</h1>
+      <p>Find policies for rooms, guests, and shared services at a fictional coworking space.</p>
+    </div>
+    <form id="question-form">
+      <label for="question">Your question</label>
+      <div class="query">
+        <input id="question" name="question" type="text" maxlength="500" required placeholder="Can I bring a guest on Sunday?">
+        <button type="submit" id="submit">Ask handbook</button>
+      </div>
+      <div class="examples" aria-label="Example questions">
+        <button type="button" data-question="How late can a member badge in on Sunday?">Access hours</button>
+        <button type="button" data-question="How far in advance must I cancel a meeting room to get my credit back?">Room cancellation</button>
+        <button type="button" data-question="What health insurance benefits do members receive?">Unsupported question</button>
+      </div>
+    </form>
+    <p id="activity" role="status"></p>
+    <section id="results" hidden aria-label="Search results">
+      <article class="answer-card">
+        <span id="answer-status" class="answer-status"></span>
+        <h2>Answer</h2>
+        <p id="answer-text"></p>
+        <div id="citations-list" aria-label="Citations"></div>
+        <div id="sources"></div>
+      </article>
+      <details id="search-details" class="trace">
+        <summary>Vector search details</summary>
+        <p id="search-metrics"></p>
+        <ul id="matches"></ul>
+      </details>
+    </section>
+    <footer>Local inference · SQLite vector index · Synthetic handbook data</footer>
+  </main>
+</body>
+</html>

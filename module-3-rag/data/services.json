@@ -1,0 +1,42 @@
+[
+  {
+    "id": "SERVICE-01",
+    "title": "Guest Wi-Fi and member network",
+    "topic": "services",
+    "audience": "all visitors",
+    "effective": "2026-11-01",
+    "text": "The guest network is Canal-Guest. No shared password is required: open a browser and accept the captive portal terms. Members use Canal-Member and can retrieve their personal credentials in the portal. Reception can help with sign-in during staffed hours."
+  },
+  {
+    "id": "SERVICE-02",
+    "title": "Printing quota and poster printing",
+    "topic": "services",
+    "audience": "members",
+    "effective": "2026-11-01",
+    "text": "Standard members get 30 black-and-white pages per calendar month; Studio members get 60. Each additional black-and-white page costs $0.08. Reception can print A3 posters at $2 each during staffed hours. Unused monthly printing credits expire at month end."
+  },
+  {
+    "id": "SERVICE-03",
+    "title": "Parcel delivery and collection",
+    "topic": "services",
+    "audience": "Studio members",
+    "effective": "2026-11-01",
+    "text": "Studio members can receive business parcels at reception. Parcels must weigh at most 10 kg; storage lasts up to five business days. Bring a badge when collecting a parcel. Reception cannot accept refrigerated deliveries or sign for registered mail."
+  },
+  {
+    "id": "SERVICE-04",
+    "title": "Bicycle storage and charging",
+    "topic": "services",
+    "audience": "members",
+    "effective": "2026-11-01",
+    "text": "Members can lock bicycles in the covered courtyard rack during their access hours. Entry is through the west gate. The rack cannot be reserved, and no outlets are available for e-bike charging. Remove bicycles before the end of the day."
+  },
+  {
+    "id": "SERVICE-05",
+    "title": "Day passes and equipment loans",
+    "topic": "services",
+    "audience": "all visitors",
+    "effective": "2026-11-01",
+    "text": "A day pass costs $18 and includes a hot desk and guest Wi-Fi for that day. Borrow a USB-C adapter at reception for up to three hours by leaving an access badge or visitor badge. Day passes do not include meeting room booking credits."
+  }
+]

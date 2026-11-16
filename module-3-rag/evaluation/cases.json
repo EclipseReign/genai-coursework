@@ -1,0 +1,86 @@
+[
+  {
+    "case": "weekend_guest",
+    "question": "Can I bring guests on Sunday as a Studio member, and when must I register them?",
+    "sources": [
+      "ACCESS-02"
+    ],
+    "facts": [
+      "\\b5(?::00)?\\s*p\\.?m",
+      "previous business day"
+    ]
+  },
+  {
+    "case": "room_credit",
+    "question": "How far in advance must I cancel a meeting room to get my credit back?",
+    "sources": [
+      "ROOM-01"
+    ],
+    "facts": [
+      "\\b(?:4|four)\\s*hours"
+    ]
+  },
+  {
+    "case": "access_paraphrase",
+    "question": "Where can a wheelchair user get in without stairs?",
+    "sources": [
+      "ACCESS-04"
+    ],
+    "facts": [
+      "west (?:entrance|door)",
+      "Lock Lane"
+    ]
+  },
+  {
+    "case": "guest_wifi",
+    "question": "What wireless network should a visitor join, and is there a password?",
+    "sources": [
+      "SERVICE-01"
+    ],
+    "facts": [
+      "Canal-Guest",
+      "no (?:shared )?password|password is(?: not|n't) required"
+    ]
+  },
+  {
+    "case": "printer",
+    "question": "What is the monthly black-and-white print allowance for a Standard member?",
+    "sources": [
+      "SERVICE-02"
+    ],
+    "facts": [
+      "\\b30\\b"
+    ]
+  },
+  {
+    "case": "two_sources",
+    "question": "What is the price of a day pass and what hours can a day pass visitor enter on weekdays?",
+    "sources": [
+      "SERVICE-05",
+      "ACCESS-01"
+    ],
+    "facts": [
+      "\\$18|18 dollars",
+      "8:30",
+      "6:00|6\\s*p\\.?m"
+    ]
+  },
+  {
+    "case": "out_of_scope",
+    "question": "What health insurance benefits do members receive?",
+    "sources": [],
+    "facts": []
+  },
+  {
+    "case": "missing_policy",
+    "question": "How much does it cost to rent a dedicated parking space?",
+    "sources": [],
+    "facts": []
+  },
+  {
+    "case": "specific_unknown",
+    "question": "What brand and model is the HDMI display in Basin Room?",
+    "sources": [],
+    "facts": []
+  }
+]

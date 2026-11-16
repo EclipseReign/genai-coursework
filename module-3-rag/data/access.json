@@ -1,0 +1,42 @@
+[
+  {
+    "id": "ACCESS-01",
+    "title": "Front desk and member access",
+    "topic": "access",
+    "audience": "members and visitors",
+    "effective": "2026-11-01",
+    "text": "The reception desk is staffed from 8:30 a.m. to 6:00 p.m. Monday through Friday. Standard and Studio members can badge in from 7:00 a.m. to 10:00 p.m. daily. Day pass visitors may enter during staffed hours only."
+  },
+  {
+    "id": "ACCESS-02",
+    "title": "Weekend guest registration",
+    "topic": "access",
+    "audience": "members",
+    "effective": "2026-11-01",
+    "text": "On Saturdays and Sundays, only Studio members may bring guests. The host must register each guest through the member portal by 5:00 p.m. on the previous business day. The host must meet the visitor at the east entrance and remain onsite. A host can register up to two weekend guests per day."
+  },
+  {
+    "id": "ACCESS-03",
+    "title": "Lost badges and replacement",
+    "topic": "access",
+    "audience": "members",
+    "effective": "2026-11-01",
+    "text": "Report a lost access badge through the member portal immediately so the desk can disable it. During staffed hours, show photo ID at reception for a temporary badge. A permanent replacement costs $15. A temporary badge must be returned by the end of the day."
+  },
+  {
+    "id": "ACCESS-04",
+    "title": "Step-free entrance and restrooms",
+    "topic": "access",
+    "audience": "all visitors",
+    "effective": "2026-11-01",
+    "text": "The west entrance on Lock Lane has a step-free doorway and automatic door. The elevator is just inside and reaches both coworking floors. Accessible restrooms are on the ground floor next to the café and on the second floor opposite the elevator."
+  },
+  {
+    "id": "ACCESS-05",
+    "title": "Weekday guest registration",
+    "topic": "access",
+    "audience": "members",
+    "effective": "2026-11-01",
+    "text": "On weekdays, Standard and Studio members can bring up to three guests per day. Guests must sign in at reception during staffed hours and wear a visitor badge. The host must be present. Day pass holders cannot sponsor visitors."
+  }
+]
